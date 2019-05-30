@@ -17,8 +17,3 @@ const insertionSort = (arr) => {
 
   return sorted;
 }
-
-console.log(insertionSort([]));
-console.log(insertionSort([1]));
-console.log(insertionSort([33, 12, 99, 1, 0, 4, 38, 75, 21, 0, 1, 0, 1, 4, 2]));
-console.log(insertionSort('zaouvaivuaonvasdnvydawpwje'));
