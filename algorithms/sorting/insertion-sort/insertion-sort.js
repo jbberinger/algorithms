@@ -7,9 +7,9 @@ const insertionSort = (arr) => {
 
     // swaps elements if right is less than left
     while (i > 0 && sorted[i] < sorted[i - 1]) {
-      let buffer = sorted[i - 1];
+      let temp = sorted[i - 1];
       sorted[i - 1] = sorted[i];
-      sorted[i] = buffer;
+      sorted[i] = temp;
       i--;
     }
 
