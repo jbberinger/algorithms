@@ -3,7 +3,7 @@ class SinglyLinkedList {
   constructor(data = undefined) {
     this.head = new Node(data);
     this.tail = this.head;
-    this.second = undefined;
+    this.second = undefined; // holds refernce to node previous to tail
     this.length = 1;
   }
 
@@ -69,7 +69,7 @@ class SinglyLinkedList {
     return display;
   }
 
-  // Returns first matching node, else returns undefined.
+  // Returns first matching node
   find = (value) => {
     let current = this.head;
     while (current !== undefined) {
@@ -81,6 +81,7 @@ class SinglyLinkedList {
 
 }
 
+// Stores data and reference to next node in list
 class Node {
   constructor(data = undefined, next = undefined) {
     this.data = data;
