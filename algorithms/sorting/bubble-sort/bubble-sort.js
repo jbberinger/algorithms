@@ -10,6 +10,7 @@ const bubbleSort = (arr) => {
 
     // Passes over array from end to end
     for (i; i < sorted.length; i++) {
+      // Performs swap if next element in array is greater
       if (sorted[i] > sorted[i + 1]) {
         isSorted = false;
         let temp = sorted[i + 1];
@@ -23,7 +24,3 @@ const bubbleSort = (arr) => {
   return sorted;
 
 }
-
-console.log(bubbleSort([]));
-console.log(bubbleSort([1]));
-console.log(bubbleSort([99, 3, 1, 0, 0, 22, 11, 1, 0, 0, 0, 1, 9, 22]));
