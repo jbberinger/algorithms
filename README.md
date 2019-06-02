@@ -1,3 +1,26 @@
 # Algorithms and Data Structures in JavaScript
 
-Using this repository to review algorithms and data structures in JavaScript.
+A repository for reviewing algorithms and data structures in JavaScript.
+
+## Algorithms 🚀
+
+```bash
+algorithms
+└── sorting
+    ├── bubble-sort
+    │   ├── bubble-sort.js
+    │   └── recursive-bubble-sort.js
+    ├── insertion-sort
+    │   └── insertion-sort.js
+    └── selection-sort
+        ├── recursive-selection-sort.js
+        └── selection-sort.js
+```
+
+## Data Structures ⛰️
+
+```bash
+data-structures
+└── linked-list
+    └── singly-linked-list.js
+```
