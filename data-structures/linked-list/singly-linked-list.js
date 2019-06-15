@@ -17,7 +17,6 @@ class SinglyLinkedList {
 
   // Removes and returns tail
   pop = () => {
-
     if (this.length === 0) return undefined;
 
     let tail;
@@ -50,7 +49,6 @@ class SinglyLinkedList {
 
     this.length--;
     return tail;
-
   }
 
   // Returns tail without removing it
@@ -78,7 +76,6 @@ class SinglyLinkedList {
     }
     return undefined;
   }
-
 }
 
 // Stores data and reference to next node in list
