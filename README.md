@@ -1,11 +1,13 @@
 # Algorithms and Data Structures in JavaScript
 
-A repository for reviewing algorithms and data structures in JavaScript.
+A repository for implementing algorithms and data structures in JavaScript.
 
 ## Algorithms 🚀
 
 ```bash
-algorithms
+├── math
+│   └── fibonacci
+│       └── fibonacci.js
 └── sorting
     ├── bubble-sort
     │   ├── bubble-sort.js
@@ -20,7 +22,6 @@ algorithms
 ## Data Structures ⛰️
 
 ```bash
-data-structures
-└── linked-list
+linked-list
     └── singly-linked-list.js
 ```
