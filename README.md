@@ -24,6 +24,6 @@ A repository for implementing algorithms and data structures in JavaScript.
 ## Data Structures ⛰️
 
 ```bash
-linked-list
+└── linked-list
     └── singly-linked-list.js
 ```
