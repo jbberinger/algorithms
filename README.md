@@ -6,8 +6,10 @@ A repository for implementing algorithms and data structures in JavaScript.
 
 ```bash
 ├── math
-│   └── fibonacci
-│       └── fibonacci.js
+│   ├── fibonacci
+│   │   └── fibonacci.js
+│   └── pascals-triangle
+│       └── pascals-triangle.js
 └── sorting
     ├── bubble-sort
     │   ├── bubble-sort.js
