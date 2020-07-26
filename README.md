@@ -3,6 +3,7 @@
 A repository for implementing algorithms and data structures.
 
 ## Algorithms 🚀
+### Javascript
 
 ```bash
 ├── math
@@ -22,6 +23,7 @@ A repository for implementing algorithms and data structures.
 ```
 
 ## Data Structures ⛰️
+### Javascript
 
 ```bash
 └── linked-list
