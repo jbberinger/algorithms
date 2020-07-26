@@ -1,6 +1,6 @@
-# Algorithms and Data Structures in JavaScript
+# Algorithms and Data Structures
 
-A repository for implementing algorithms and data structures in JavaScript.
+A repository for implementing algorithms and data structures.
 
 ## Algorithms 🚀
 
